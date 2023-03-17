@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background-color: beige ;
+}
+
+p{
+    text-align: justify; 
+    text-indent: 50px;
+}
+
+h1,h2,h3{
+    text-align: center;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
