@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Seminário de Tecnologias Web | 5º Período | Bacharelado em Ciência da Computação | IFSULDEMINAS - Campus Muzambinho</title>
+    
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='32' fill='%23D81B60'/%3E%3C/svg%3E">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        :focus-visible{
+            outline: 3px solid #0B7A6C;
+            outline-offset: 3px;
+        }
+
+        *,
+        *::before,
+        *::after{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body{
+            width: 100%;
+            min-height: 100vh;
+            min-height: 100dvh;
+        }
+
+        body{
+            font-family: 'Poppins', system-ui, sans-serif;
+            color: #232329;
+            line-height: 1.6;
+            background-color: #FFFFFF;
+        }
+
+        main{
+            margin: clamp(2rem, 8vw, 5rem) auto;
+            width: min(100% - 2.5rem, 60rem);
+        }
+
+        section{
+            padding-top: 2.5rem;
+        }
+
+        iframe{
+            border: 1px solid #E3DFE1;
+            border-radius: 0.5rem;
+            width: 100%;
+            background: #FFFFFF;
+            display: block;
+        }
+
+        iframe.slides{
+            aspect-ratio: 16/9;
+        }
+
+        iframe.page{
+            height: min(70vh, 36rem);
+        }
+
+        pre{
+            border-radius: 0.5rem;
+            margin-top: 0.75rem;
+            padding: 1rem;
+            background: #2D2D2D;
+            overflow-x: auto;
+        }
+
+        code{
+            font-family: ui-monospace, Consolas, monospace;
+            font-size: 0.9rem;
+            color: #EEEEEE;
+        }
+
+        h1{
+            font-size: clamp(1.8rem, 6vw, 2.6rem);
+            font-weight: 700;
+            line-height: 1.15;
+        }
+
+        h2{
+            margin-bottom: 0.75rem;
+            font-size: 1.2rem;
+        }
+
+        a{
+            color: #A3134A;
+            font-weight: 600;
+        }
+
+        .desc{
+            margin: 0.75rem 0 1rem;
+            font-size: 0.95rem;
+            color: #4A4A54;
+        }
+
+        .links{
+            margin-top: .5rem;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Seminário de Tecnologias Web</h1>
+        <p class="desc">IFSULDEMINAS - Campus Muzambinho<br>Bacharelado em Ciência da Computação - COMP5 (5º Período) - 2023<br>Paulo, Guilherme, Gabriel H.</p>
+
+        <section>
+            <h2>Slides: Resumo HTML e CSS</h2>
+            <iframe class="slides" title="Slides: Resumo HTML e CSS" src="slides/RESUMO_HTML_CSS.pdf#navpanes=0&amp;view=Fit" loading="lazy"></iframe>
+            <p class="links"><a href="slides/RESUMO_HTML_CSS.pdf">Abrir em tela cheia</a></p>
+        </section>
+
+        <section>
+            <h2>Slides: Flexbox</h2>
+            <iframe class="slides" title="Slides: Flexbox" src="slides/FLEXBOX.pdf#navpanes=0&amp;view=Fit" loading="lazy"></iframe>
+            <p class="links"><a href="slides/FLEXBOX.pdf">Abrir em tela cheia</a></p>
+        </section>
+
+        <section>
+            <h2>Aula: HTML parte 3 (multimídia)</h2>
+            <iframe class="page" title="Aula: HTML parte 3" src="Aula/index.html" loading="lazy"></iframe>
+            <p class="links"><a href="Aula/index.html">Abrir em tela cheia</a></p>
+        </section>
+
+        <section>
+            <h2>Atividade prática: enunciado</h2>
+            <iframe class="page" title="Atividade prática: enunciado" src="Atividade_Pratica/index.html" loading="lazy"></iframe>
+            <p class="links"><a href="Atividade_Pratica/index.html">Abrir em tela cheia</a></p>
+        </section>
+
+        <section>
+            <h2>Atividade prática: resolvida</h2>
+            <iframe class="page" title="Atividade prática: resolvida" src="Atividade_Pratica/resolvida.html" loading="lazy"></iframe>
+            <p class="links"><a href="Atividade_Pratica/resolvida.html">Abrir em tela cheia</a></p>
+        </section>
+
+        <section>
+            <h2>Fazer a atividade</h2>
+            <p>Baixe o repositório e abra a pasta <b>Atividade_Pratica</b> no VS Code:</p>
+            <pre><code>git clone https://github.com/p4ulo-r/tecweb-seminario</code></pre>
+        </section>
+    </main>
+</body>
+</html>
